@@ -10,10 +10,12 @@
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body>
+  <body class="container">
     <header>
-      <img src="assets/img/logo.svg" alt="LaslesVPN" />
-      <nav>
+      <div class="logo">
+        <img src="assets/img/logo.svg" alt="LaslesVPN" />
+      </div>
+      <nav class="top-nav">
         <ul>
           <li>
             <a href="#">About</a>
@@ -31,19 +33,25 @@
             <a href="#">Help</a>
           </li>
         </ul>
+        <div>
+          <button class="sign-in">Sign In</button>
+          <button class="sign-up">Sign Up</button>
+        </div>
       </nav>
-      <button class="sign-in">Sign In</button>
-      <button class="sign-up">Sign Up</button>
     </header>
     <main>
       <section class="hero">
-        <h1>Want anything to be easy with LaslesVPN.</h1>
-        <p>
-          Provide a network for all your needs with ease and fun using LaslesVPN
-          discover interesting features from us.
-        </p>
-        <button>Get Started</button>
-        <img src="assets/img/hero-illustration.svg" alt="Hero" />
+        <div class="hero-info">
+          <h1>Want anything to be easy with LaslesVPN.</h1>
+          <p>
+            Provide a network for all your needs with ease and fun using
+            LaslesVPN discover interesting features from us.
+          </p>
+          <button class="get-started">Get Started</button>
+        </div>
+        <div>
+          <img src="assets/img/hero-illustration.svg" alt="Hero" />
+        </div>
       </section>
       <div>
         <img src="assets/img/icons/users.svg" alt="Users" />
