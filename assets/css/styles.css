@@ -13,6 +13,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+  margin: 0;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h2 {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
+  margin: 0;
 }
 
 h3 {
@@ -99,9 +101,10 @@ header {
 /* Section Hero  */
 
 .hero {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-top: 88px;
 }
 
 .hero-info {
@@ -117,3 +120,40 @@ header {
   height: 50px;
   width: 250px;
 }
+
+/* Hero Users */
+
+.hero-users {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 15px 15px gray;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  height: 200px;
+}
+
+.users-image {
+  margin-left: 90px;
+}
+
+.users-image-info {
+  margin-right: 130px;
+}
+
+.users-image-info-line {
+  margin-left: 130px;
+}
+
+.line {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  width: 430px;
+  height: 125px;
+}
+
+/* Section Features */
