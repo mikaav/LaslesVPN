@@ -370,7 +370,9 @@ h3 {
   margin-top: 20px;
 }
 
-.users-feedback ul {
+/* Users */
+
+.users-feedback {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -385,31 +387,68 @@ h3 {
 
 .yessica {
   width: 400px;
-  border: 2px solid #f53838;
+  border: 2px solid #dddddd;
   border-radius: 10px;
 }
 
 .kim {
   width: 400px;
-  border: 2px solid #f53838;
+  border: 2px solid #dddddd;
   border-radius: 10px;
 }
 
 .customer-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-.customer-info img {
+.customer-image {
+  margin-top: 30px;
   margin-left: 30px;
-  margin-right: 10px;
 }
 
-.customer-info h3 {
+.customer-address h3 {
   margin-top: 30px;
   margin-bottom: 0;
 }
+.customer-address {
+  margin-left: 20px;
+}
 
-.customer-info h4 {
-  margin-left: 75px;
+.customer-raiting {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-right: 30px;
+}
+
+blockquote {
+  line-height: 30px;
+  width: 340px;
+}
+
+/* Feedback Buttons */
+
+.feedback-buttons {
+  text-align: right;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.previous {
+  background-color: white;
+  color: #f53838;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.next {
+  background-color: #f53838;
+  color: white;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
