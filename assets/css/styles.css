@@ -452,3 +452,73 @@ blockquote {
   height: 60px;
   width: 60px;
 }
+
+/* Section Subscribe Now  */
+
+.subscribe {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px auto;
+  height: 233px;
+  width: 1140px;
+}
+
+.subscribe-info {
+  margin-top: 58px;
+  margin-left: 70px;
+  width: 370px;
+}
+
+.subscribe-button-location {
+  margin-top: 85px;
+  margin-right: 70px;
+}
+
+.subscribe-button {
+  background: #f53838;
+  border: 1px solid #f53838;
+  border-radius: 10px;
+  color: white;
+  height: 60px;
+  width: 250px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin-bottom: 100px;
+}
+
+footer h3,
+h4,
+p {
+  text-align: left;
+}
+
+.footer-info p {
+  margin-top: 20px;
+}
+
+.footer-nav ul {
+  list-style: none;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-info {
+  margin-left: 150px;
+  width: 340px;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: 3fr 3fr 2fr;
+  margin-right: 150px;
+}
